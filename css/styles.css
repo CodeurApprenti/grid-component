@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
+
+/* Bases */
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@
 }
 
 
-
+/* Container and Grid */
 .container{
     height: 100vh;
     background: var(--color-light-gray);
@@ -33,6 +35,8 @@
     border-radius: 10px;
     overflow: hidden;
 }
+
+/* Section Top */
 
 .container .top{
     padding: 40px;
@@ -54,6 +58,7 @@
     line-height: 25px;
 }
 
+/* Section Bottom */
 .container .bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
